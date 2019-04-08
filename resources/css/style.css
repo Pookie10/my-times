@@ -33,3 +33,50 @@ nav {
 nav span {
   padding-right: 20px;
 }
+
+.content {
+  display: flex;
+  position: relative;
+  top: 120px;
+}
+
+.large {
+  width: 630px;
+  border: 1px solid black;
+  font-family: Georgia;
+}
+
+.bottom {
+  display: flex;
+}
+
+
+
+.medium {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.small {
+  width: 240px;
+  border: 1px solid black;
+}
+
+.main-image {
+  display: flex;
+  background-image: url("d:users/paul/cloudstation/projects/my-times/resources/images/main-story.png");
+  width: 100%;
+  height: 300px;
+
+}
+
+.main-image span {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.main-story p {
+  color: black
+  font-size: 17px;
+}
