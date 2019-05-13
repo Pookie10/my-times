@@ -4,12 +4,16 @@ header {
   justify-content: space-between;
   width: 100%;
   height: 80px;
+  margin-top: 0px;
+  margin-bottom: : 5px;
+  padding-top: 0px;
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
   position: fixed;
   z-index: 5;
+  background-color: white;
 }
 
 .logo {
@@ -38,6 +42,8 @@ nav span {
   display: flex;
   position: relative;
   top: 120px;
+  z-index: 1;
+  margin: 0 auto;
 }
 
 .large {
@@ -49,8 +55,6 @@ nav span {
 .bottom {
   display: flex;
 }
-
-
 
 .medium {
   width: 300px;
@@ -71,12 +75,60 @@ nav span {
 }
 
 .main-image span {
+  font-family: Georgia;
   color: white;
   font-weight: bold;
   font-size: 40px;
+  text-align: center;
 }
 
 .main-story p {
-  color: black
+  color: black;
   font-size: 17px;
+}
+
+.image-left {
+  display: flex;
+  background-image: url("d:users/paul/cloudstation/projects/my-times/resources/images/earth-spin.png");
+  width: 100%;
+  height: 300px;
+
+}
+
+.image-left span {
+  font-family: Georgia;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.image-right {
+  display: flex;
+  background-image: url("d:users/paul/cloudstation/projects/my-times/resources/images/man-camera.png");
+  width: 100%;
+  height: 300px;
+}
+
+.image-right span {
+  font-family: Georgia;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.cats {
+  background-image: url("d:users/paul/cloudstation/projects/my-times/resources/images/cat.png");
+  width: 100%;
+  height: 300px;
+}
+
+.cats span {
+  font-family: Georgia;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.list p {
+  border-bottom: 1px solid black;
 }
